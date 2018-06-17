@@ -1,0 +1,146 @@
+nav {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration:none;
+  width: 100%;
+  font-family: "Montserrat";
+  font-size: 42px;
+  border: solid 5px pink;
+}
+
+ul li{
+  display: inline-block;
+  float:right;
+  word-spacing:45px;
+}
+
+.name{
+  float:left;
+  font-size: 30px;
+}
+
+header{
+  background-image:url("../img/hero.png");
+  height:100%;
+  border: solid 5px pink;
+}
+
+h1{
+
+  color:#49205E;
+  font-family: "Source Code Pro";
+  font-size: 96px;
+  text-align:center;
+}
+
+
+
+article{
+  background-color: #49205E;
+  color:white;
+  font-family: "Montserrat";
+  border: solid 5px pink;
+}
+
+#portfolio-site-description{
+  display:inline-block;
+  float:right;
+
+
+}
+.portfolio-top{
+  margin: 600px;
+
+}
+
+.portfolio-description{
+  clear: right;
+}
+
+.portfolio-site-right{
+  border: 5px solid black;
+
+
+}
+.portfolio-site-left{
+  float: left;
+  clear:both;
+
+}
+img{
+  border: solid 1px #b7b7b7;
+}
+
+#rogue-pickings{
+  display:inline-block;
+  clear:both;
+}
+
+.rogue-pickings-left{
+  float: left;
+  width: 360px;
+}
+
+.rogue-pickings-right{
+  float:right;
+}
+
+#holstee-manifesto{
+  display:inline-block;
+  clear:both;
+}
+
+.holstee-manifesto-right{
+  float:right;
+  width: 360px;
+
+
+}
+
+.holstee-manifesto-left{
+  float:left;
+
+
+}
+h2{
+  font-family: "Source Code Pro";
+  font-size: 48px;
+  text-align:center;
+
+}
+
+#about-me{
+  background-color:#805BA5;
+}
+
+footer{
+  background-color: #49205E;
+  color:#BC519E;
+  font-size: 48px;
+
+}
+
+.hang-out-with-me{
+  color: white;
+  display:inline-block;
+  font-family: "Montserrat";
+  font-size: 32px;
+}
+
+.hire{
+  float: left;
+  text-align:center;
+}
+.follow{
+  float: left;
+  text-align:center;
+}
+.icons{
+  display:inline-inline-block;
+}
+
+.meet{
+  float: right;
+  text-align:center;
+}
