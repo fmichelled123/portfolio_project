@@ -1,37 +1,71 @@
 nav {
   display: inline-block;
-  background-color: black;
+  background-color: none;
   color: white;
-  text-decoration:none;
-  width: 100%;
+  float: right;
+  height: 5%;
+  margin-top:0px;
+  padding: 0px;
+  position: fixed;
+width:50%;
   font-family: "Montserrat";
-  font-size: 42px;
-  border: solid 5px pink;
+  font-size: 18px;
+
 }
 
-ul li{
+ul li {
+  color: white;
   display: inline-block;
-  float:right;
-  word-spacing:45px;
+  float: right;
+  margin: 15px 15px 0px 15px;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+li:link{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color:yellow;
+  font-family: "Pacifico";
+}
+
+ul{
+  margin-right: 5px;
 }
 
 .name{
+
   float:left;
-  font-size: 30px;
+  font-family: "Montserrat";
+  font-size: 25px;
+  height:auto;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding-top: 20px;
+  width: 49%;
+  background-color: none;
+  color: white;
 }
 
 header{
   background-image:url("../img/hero.png");
   height:100%;
-  border: solid 5px pink;
+  padding: 180px;
 }
 
 h1{
-
   color:#49205E;
   font-family: "Source Code Pro";
   font-size: 96px;
-  text-align:center;
+  text-align:left;
 }
 
 
@@ -40,32 +74,53 @@ article{
   background-color: #49205E;
   color:white;
   font-family: "Montserrat";
-  border: solid 5px pink;
+  margin-top: -10%;
+  margin-bottom: -10%;
+  padding-left: 40px;
+  overflow: auto;
+  width: 100%;
 }
+
+
+.link{
+  text-decoration: none;
+  color:white;
+
+}
+
+.link:hover{
+  color: yellow;
+  font-family: "Pacifico";
+}
+
+
 
 #portfolio-site-description{
   display:inline-block;
-  float:right;
-
+  color:white;
 
 }
+
 .portfolio-top{
   margin: 600px;
+  color:white;
 
 }
 
-.portfolio-description{
-  clear: right;
-}
 
 .portfolio-site-right{
-  border: 5px solid black;
+  color:white;
+  float:right;
+  font-size: 20px;
+  margin-right: 200px;
+  width: 50%;
 
 
 }
 .portfolio-site-left{
   float: left;
-  clear:both;
+  margin-left: 100px;
+
 
 }
 img{
@@ -78,28 +133,42 @@ img{
 }
 
 .rogue-pickings-left{
+  color:white;
   float: left;
-  width: 360px;
+  font-size: 20px;
+  margin-left:100px;
+  width: 50%;
 }
 
 .rogue-pickings-right{
-  float:right;
+  float:left;
+  margin-left: 50px;
 }
 
 #holstee-manifesto{
   display:inline-block;
   clear:both;
+  margin-bottom: 0px;
+  padding: 25px;
 }
 
 .holstee-manifesto-right{
+  color:white;
   float:right;
-  width: 360px;
+  font-size: 20px;
+  width: 50%;
+  margin-right: 200px;
 
 
 }
 
 .holstee-manifesto-left{
   float:left;
+  margin-bottom:50px;
+  margin-left:100px;
+  margin-top: 45px;
+
+
 
 
 }
@@ -111,13 +180,35 @@ h2{
 }
 
 #about-me{
-  background-color:#805BA5;
+  background-image:url("../img/about-me.png");
+  height: 90%;
+  padding-bottom: 110px;
+  padding-left: 50px;
+  padding-top:50px;
+  padding-right: 70px;
+
+  margin-bottom: -40px;
+  margin-top: 10%;
+  overflow:auto;
+  width: 90%;
+
+
+}
+
+.about-descript{
+  color:#BC519E;
+  font-family: "Montserrat";
 }
 
 footer{
   background-color: #49205E;
   color:#BC519E;
-  font-size: 48px;
+  display: inline-block;
+  font-size: 0px;
+  padding: 50px;
+  overflow:auto;
+  width:95%;
+  border: solid black 1px;
 
 }
 
@@ -125,22 +216,46 @@ footer{
   color: white;
   display:inline-block;
   font-family: "Montserrat";
-  font-size: 32px;
+  font-size: 20px;
+  width: 100%;
+}
+
+#icon-pics{
+  border-radius:90%;
 }
 
 .hire{
   float: left;
+  font-size: 20px;
   text-align:center;
+  width: 30%;
 }
 .follow{
+  clear: right;
   float: left;
+  font-size: 20px;
+  margin-left: 45px;
+  margin-right: 45px;
   text-align:center;
+  width: 30%;
 }
 .icons{
   display:inline-inline-block;
+  color: white;
+}
+
+i{
+  color:white;
+  font-size: 30px;
+}
+
+i:hover{
+  color:yellow;
 }
 
 .meet{
   float: right;
+  font-size: 20px;
   text-align:center;
+  width: 30%;
 }
